@@ -1,12 +1,12 @@
-import * as React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from '../logo.png';
+import logo from "../images/logo.png";
 import './SolutionsDesktop.css';
-import Dropdown from "../Dropdown";
+import Dropdown from "./Dropdown";
 
 function SolutionsDesktop() {
-  const [click, setClick] = React.useState(false);
-  const [dropdown, setDropdown] = React.useState(false);
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => {
     setClick(!click);

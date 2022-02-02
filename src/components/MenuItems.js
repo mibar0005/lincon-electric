@@ -1,27 +1,22 @@
 export const MenuItems = [
     {
         title: 'Solutions By Industry',
-        url: '#',
+        url: 'Industry',
         cName: 'nav-links'
     },
     {
         title: 'Solutions By Process',
-        url: '#',
+        url: 'Process',
         cName: 'nav-links'
     },
     {
         title: 'Software Solution',
-        url: '#',
+        url: 'Solution',
         cName: 'nav-links'
     },
     {
         title: 'Services',
-        url: '#',
+        url: 'Services',
         cName: 'nav-links'
     },
-    // {
-    //     title: 'Resources',
-    //     url: '#',
-    //     cName: 'nav-links'
-    // },
 ]

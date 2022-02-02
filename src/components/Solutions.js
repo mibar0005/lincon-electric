@@ -1,16 +1,16 @@
-import * as React from 'react';
+import { useState, useEffect }  from 'react';
 import SolutionsDesktop from './SolutionsDesktop';
 import SolutionsMobile from './SolutionsMobile';
 
 
 function Solutions () {
 
-const [isMobile, setIsMobile] = React.useState(false);
+const [isMobile, setIsMobile] = useState(false);
 
 
 const handleResize = () => setIsMobile(window.innerWidth < 800 ? true: false);
 
-React.useEffect(() => {
+useEffect(() => {
     //Mounting 
     if (window) {
         window.addEventListener('resize', handleResize);
@@ -20,8 +20,6 @@ React.useEffect(() => {
         window.removeEventListener('resize', handleResize);
     }
 }, [])
-
-
 
     return (
         <>

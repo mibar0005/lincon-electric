@@ -1,11 +1,11 @@
-import * as React from "react";
-import AboutUs from "../AboutUs";
-import logo from "../logo.png";
+import { useState }from "react";
+import AboutUs from "./AboutUs";
+import logo from "../images/logo.png";
 import "./SolutionsMobile.css";
 
 function SolutionsMobile() {
-  const [menuOpen, setMenuOpen] = React.useState(false);
-  const [subMenuOpen, setSubMenuOpen] = React.useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [subMenuOpen, setSubMenuOpen] = useState(false);
 
   const closeMenu = () => {
     if (menuOpen) {

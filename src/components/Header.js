@@ -1,6 +1,6 @@
 import react from "react";
-import usaFlag from "./USA-flag.ico";
-import trust from "./desktop-shield.png";
+import usaFlag from "../images/USA-flag.ico";
+import trust from "../images/desktop-shield.png";
 import './Header.css'
 
 function Header() {
