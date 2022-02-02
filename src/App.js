@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Solutions/>
       {/* <SolutionsDesktop /> */}
-      {/* <SolutionsMobile /> */}
+      <SolutionsMobile />
       <Routes>
         {/* <Route path="/" element={<p>HOme Page</p>} /> */}
         {/* <Route path="*" element={<p>no page at this route</p>} /> */}

@@ -39,12 +39,9 @@
   .fa-bars {
     display: inline;
     float: left;
-    margin: 15px;
+    margin: 20px;
     margin-top: 25px;
-  }
 
-  .fa-times {
-    display: none;
   }
 
   .menu-mobile {
@@ -53,6 +50,12 @@
   }
 
   .times {
+    float: right;
+    color: white;
+    padding-right: 18px;
+  }
+
+  .times-submenu {
     float: right;
     color: white;
     padding-right: 10px;
@@ -72,14 +75,6 @@
     background-color: white;
   }
 
-  .content-mobile {
-    display: flex;
-    align-items: center;
-    height: auto;
-    padding: 1px 0px;
-    background-color: #cccccc;
-  }
-
   .mobile-background {
     background-color: #f4f4f4;
     height: 100vh;
@@ -89,12 +84,21 @@
     padding: 10px;
   }
 
+  .content-mobile {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 1px 0px;
+    background-color: #cccccc;
+  }
+
   .mobile-menu-items li {
     display: block;
-    /* justify-content: space-between; */
-    padding: 10px 15px;
+    justify-content: space-between; 
+    padding: 16px 20px;
     border-bottom: solid 1px #d0d0d0;
-    font-size: 18px;
+    font-size: 16px;
+
   }
 
   .mobile-sub-menu li {
@@ -107,8 +111,7 @@
 
   .sub-menu-header, .solutions-sub-menu {
     display: block;
-
-    padding: 5px 5px;
+    padding: 0px 3px;
     font-size: 16px;
   }
 
@@ -118,7 +121,8 @@
 
 h4 {
   font-size: 16px;
-    font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 3px;
 }
 
 

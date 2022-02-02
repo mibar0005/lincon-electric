@@ -96,11 +96,13 @@ function SolutionsDesktop() {
                 </Link>
               </li>
               </ul>
-              <h4 className="search-desktop"> Search&nbsp;&nbsp;<i className="fas fa-search"></i></h4>
+              <p4 className="search-desktop"> Search&nbsp;&nbsp;<i className="fas fa-search"></i></p4>
           </div>
         </nav>
 
-        <div className='content'></div>
+        <div className='content'> </div>
+        <div className='background'> 
+      </div>
       </div>
     </>
   );

@@ -69,17 +69,17 @@ function SolutionsMobile() {
             <div className="mobile-sub-menu">
           <li className="menu-mobile">
             <h4 className="solutions-sub-menu">
-              Menu{" "}
+             Menu
     
-              <strong onClick={closeMenu} className="times">
+              <strong onClick={closeMenu} className="times-submenu">
                 X
-              </strong>{" "}
+              </strong>
             </h4>
           </li>
           <li className="mobile-back" onClick={() => setSubMenuOpen(false)}>
             <h4>
-              {" "}
-              <i className="fas fa-chevron-left" />&nbsp;&nbsp;Go Back{" "}
+             
+              <i className="fas fa-chevron-left" />&nbsp;&nbsp;GO BACK{" "}
             </h4>
           </li>
           <div className='solutions-by-menu'>
