@@ -1,0 +1,43 @@
+
+
+
+.menu-bottom { 
+  background-color: #F4F4F4;
+  height: 100vh;
+  padding: 10px 15px;
+}
+
+.menu-bottom-items {
+  display: flex; 
+  align-items: center;
+  padding: 10px 0px 0px 0px;;
+}
+
+
+.usa-flag { 
+    width: 23px; 
+    height: 30px;
+    margin-right: 5px;
+}
+
+.safety-badge{
+  width: 17px;
+}
+
+h4 { 
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mobile-help .fa-chevron-right {
+
+  margin-top: 4px;
+
+}
+
+/*Desktop */
+@media all and (min-width: 800px) { 
+    .about-us {
+      display: none;
+    }
+}

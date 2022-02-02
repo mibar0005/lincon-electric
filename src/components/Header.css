@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+/* mobile first */
+.desktop-view {
+    display:none;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    h4 { 
+        font-size: 16px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+
+.fa-map-marker-alt, .fa-question-circle  {
+    margin-right: 5px;
+}
+
+.fa-search, .fa-user {
+    margin-right: 10px;
+}
+
+
+.cart { 
+    display:inline-block;
+    margin-right: 10px;
+}
+
+@media all and (min-width: 800px) {
+
+    .desktop-view {
+        align-content: center;
+    }
+
+    .desktop-icons {
+        margin-left: auto;
+    }
+
+    .desktop-view { 
+        display: flex;
+        align-items: center;
+        background: black;
+    }
+
+    .desktop-view h4 { 
+        color: white;
+        font-size: 13px;
+    }
+
+    .desktop-shield-badge {
+        height: auto;
+        width: 16px;
+        background-color: black;
+        align-self: center;
+        position: fixed;
+        top: 11px;
+        right: 160px;
+    }
+
+    .fa-question-circle, .fa-map-marker-alt, .fa-user, .fa-shield-check, .fa-shopping-cart
+    {
+        color:white;
+        margin-left: 10px;
+    }
+
+    .fa-shopping-cart {
+        background-color: #b81830;
+        padding: 10px 0px 10px 10px;
+    }
+
+    .usa-flag { 
+        margin: 4.5px 6px 4.5px 15px;
+        width: 25px;
+    }
+
+    .fa-shopping-cart {
+        background-color: #b81830;
+        padding: 10px 0px 10px 10px;
+    }
+
+}

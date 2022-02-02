@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+/*Desktop*/
+@media all and (min-width: 800px) {
+  .navbar-mobile {
+    display: none;
+  }
+
+  .solutions-mobile {
+    display: none;
+  }
+
+  .mobile-background {
+    background-color: black;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
+
+/*Mobile*/
+@media all and (max-width: 800px) {
+  .logo-mobile {
+    margin: 15px 10px 10px 15px;
+    width: 125px;
+    /* height: auto; */
+  }
+
+  .mobile-icons {
+    display: inline;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin: 3px;
+  }
+
+  .fa-bars {
+    display: inline;
+    float: left;
+    margin: 15px;
+    margin-top: 25px;
+  }
+
+  .fa-times {
+    display: none;
+  }
+
+  .menu-mobile {
+    color: white;
+    background-color: black;
+  }
+
+  .times {
+    float: right;
+    color: white;
+    padding-right: 10px;
+  }
+
+
+
+  .fa-chevron-right {
+    float: right;
+    margin-right: 10px;
+  }
+
+  .hide-navbar {
+    position: fixed;
+    width: 100%;
+    margin-top: -70px;
+    background-color: white;
+  }
+
+  .content-mobile {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 1px 0px;
+    background-color: #cccccc;
+  }
+
+  .mobile-background {
+    background-color: #f4f4f4;
+    height: 100vh;
+  }
+
+  .menu-mobile {
+    padding: 10px;
+  }
+
+  .mobile-menu-items li {
+    display: block;
+    /* justify-content: space-between; */
+    padding: 10px 15px;
+    border-bottom: solid 1px #d0d0d0;
+    font-size: 18px;
+  }
+
+  .mobile-sub-menu li {
+    display: block;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: solid 1px #d0d0d0;
+    font-size: 18px;
+  } 
+
+  .sub-menu-header, .solutions-sub-menu {
+    display: block;
+
+    padding: 5px 5px;
+    font-size: 16px;
+  }
+
+    .solutions-by-menu {
+      background-color: #f0f0f0;
+    }
+
+h4 {
+  font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+    
+
+
+}
